@@ -1,0 +1,183 @@
+body {
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  margin:0;
+  /* font-size: 1em; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Slab", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* h1 { */
+/*   font-size: 2.625em; */
+/* } */
+h1 {
+  font-size: 2.25em;
+}
+
+/* h2 { */
+/*   font-size: 2.25em; */
+/* } */
+h2 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+h4 {
+  font-size: 1.5em;
+  line-height: 1.2;
+}
+
+h5 {
+  font-size: 1.25em;
+  line-height: 1.3;
+}
+
+h6 {
+  font-size: 1.125em;
+  line-height: 1.4;
+}
+
+p {
+    /* font-weight: 300; */
+    margin: .5em 0 1em;
+    line-height: 1.3;
+}
+
+h1#title {
+    text-align:center;
+    margin-bottom:0em;
+}
+
+.project_heading {
+    margin-top:1.5em;
+    margin-bottom:0.6em;
+}
+
+#identity {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.85);
+  position: relative;
+  top: 0;
+}
+
+#identity-wrapper {
+  background-color: transparent;
+  max-width: 900px;
+  margin: auto;
+}
+
+
+#menubar-wrapper {
+    /* max-width: 900px; */
+    margin:auto;
+    background-color: #EEB211;
+}
+
+
+#content {
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 10em;
+}
+
+/* setting up a counter for the projects */
+/* header{ */
+    /* counter-reset: projects; */
+/* } */
+
+/* numbering projects and increasing counter */
+/* .project_heading:before { */
+    /* counter-increment: projects; */
+    /* content: counter(projects)". " */
+/* } */
+
+
+
+/* Georgia Tech-style links */
+a:link,
+a:visited {
+  color: #1a0dab; /*  Google Blue */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+  color: #00254C;
+  font-weight: 500;
+}
+
+/*Navigation bar*/
+#navbar{ margin:0 0 3em 0; text-align:center; padding: 3px;}
+#navbar ul { list-style-type: none;}
+#navbar ul li {display: inline; }
+#navbar ul li a{ text-transform:uppercase; text-decoration:none; margin:0.5em;
+		 font-weight: 500; color:black;}
+
+
+
+/*List of taught courses*/
+/* #taught_courses dt, dd{ margin-top:0.2em; } */
+/* #taught_courses dd {padding: 0.5em; background-color:darkslategrey; } */
+
+
+
+
+/* Course syllabus */
+/* table.course_info th{ text-align: left; } */
+/* table.course_info td{ padding:0 1em; } */
+/* span.weak{ font-size:0.65em; } */
+
+
+/* Main page */
+img#coverpic{ height:250px; margin:auto; display:block; }
+/*section.cover_text { margin:4em auto; text-align:center; }*/
+div#picture_and_title {margin-left: auto; margin-right: auto; display: block;
+		       text-align: center; padding-bottom:4em;}
+div#picture_and_title img {display: inline-block;}
+div#name_and_title { display: inline-block; vertical-align: top; text-align: center; margin-left: 2em; margin-left: auto; padding-left:2em;}
+
+#REU_group_picture {
+    float: right;
+    width: 400px;
+    padding: 1em;
+}
+
+
+/* list of papers */
+.papers_list li{ margin-bottom:1em;}
+.abstract {font-size:85%;color:hsl(20,60%,40%)}
+
+
+
+
+
+/* figures on Programming and Music page */
+figure.two_column, section.musician{
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin: 3%;
+}
+
+figure.two_column img, section.musician figure, section.musician img{
+  width: 100%;
+  margin: auto;
+}
+
+figure.two_column {width: 40%; }
+figure.two_column figcaption { padding-top: 0.5em; }
+
+section.musician ul { list-style-type: none; padding: 0; }
+section.musician li { margin-bottom:0.5em;}
+section.musician { width: 18%;}

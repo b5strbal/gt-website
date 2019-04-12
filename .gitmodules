@@ -1,0 +1,12 @@
+[submodule "Color-mixing"]
+	path = Color-mixing
+	url = https://github.com/b5strbal/Color-mixing.git
+[submodule "matrix-tictactoe"]
+	path = matrix-tictactoe
+	url = https://github.com/b5strbal/matrix-tictactoe.git
+[submodule "Rabbit-population-dynamics"]
+	path = Rabbit-population-dynamics
+	url = https://github.com/b5strbal/Rabbit-population-dynamics.git
+[submodule "Linear-transformation-game"]
+	path = Linear-transformation-game
+	url = https://github.com/b5strbal/Linear-transformation-game.git
